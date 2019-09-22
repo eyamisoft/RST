@@ -37,7 +37,6 @@ public class DoAm {
         logs.log(LogStatus.INFO,"Chrome browser launched");
         demo.get("http://newtours.demoaut.com/mercurywelcome.php");
         logs.log(LogStatus.INFO,"Navigated to demoaut site");
-        demo.manage().deleteAllCookies();
         demo.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
 
