@@ -38,7 +38,7 @@ public class DoAm {
         demo.get("http://newtours.demoaut.com/mercurywelcome.php");
         logs.log(LogStatus.INFO,"Navigated to demoaut site");
         demo.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-
+        System.out.println("another 30 sec timeout");
 
 
     }
